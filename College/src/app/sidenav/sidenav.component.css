@@ -1,13 +1,28 @@
-.sidenav{
-    width: 100%;
-    height: auto;
-    background-color: #050505;
+/* sidenav.component.css */
+.sidenav {
+    background-color: #343a40; /* Dark background */
+    height: 100vh; /* Full height */
+    padding-top: 20px; /* Space from the top */
 }
-.ul, li{
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
+
+.list-group-item {
+    background-color: transparent; /* Transparent background for list items */
+    border: none; /* Remove borders */
 }
-a{
-    color: white;
+
+.nav-link {
+    color: #ffffff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 15px; /* Padding for links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Hover effect */
+}
+
+@media (max-width: 768px) {
+    .sidenav {
+        height: auto; /* Adjust height for smaller screens */
+    }
 }
