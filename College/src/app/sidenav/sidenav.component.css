@@ -1,0 +1,13 @@
+.sidenav{
+    width: 100%;
+    height: auto;
+    background-color: #050505;
+}
+.ul, li{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+a{
+    color: white;
+}
