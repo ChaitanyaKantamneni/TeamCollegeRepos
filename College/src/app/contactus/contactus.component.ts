@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { TopnavComponent } from "../topnav/topnav.component";
 
 @Component({
   selector: 'app-contactus',
   standalone: true,
-  imports: [],
+  imports: [TopnavComponent],
   templateUrl: './contactus.component.html',
   styleUrl: './contactus.component.css'
 })
