@@ -1,3 +1,6 @@
+.topnav{
+    background-color: #050505;
+}
 .row{
     display: flex;
     width: 100%;
