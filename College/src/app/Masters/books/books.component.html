@@ -1,0 +1,80 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="sidenav">
+                <app-sidenav></app-sidenav>
+            </div>
+        </div>
+        <div class="col-md-9 d-flex justify-content-center align-items-center">
+            <div class="maincontent w-100">
+
+
+                
+                <div class="card p-3 w-100">
+                    <h5>Book Details</h5>
+                    <div class="bookdetails">    
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="txt_fname">Book Name</label>
+                                <input id="txt_fname" type="text" class="form-control" placeholder="Enter Book name" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="txt_pdate">Date of publish</label>
+                                <input id="txt_pdate" type="date" class="form-control" placeholder="Select date of publish">
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="txt_sno">Shelf Number</label>
+                                <input id="txt_sno" type="text" class="form-control" placeholder="Enter shelf number" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="txt_rno">Row Number</label>
+                                <input id="txt_rno" type="text" class="form-control" placeholder="Enter row number" required="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="Authordetails">
+                        <h5>Author details</h5>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="txt_afname">Author First Name</label>
+                                <input id="txt_afname" type="text" class="form-control" placeholder="Enter author first name" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="txt_alname">Author Second Name</label>
+                                <input id="txt_alname" type="text" class="form-control" placeholder="Enter author second name">
+                            </div>
+                            
+                        </div>
+                        <div class="row mb-3">
+                            
+                            <div class="col-md-6">
+                                <label for="txt_email">Author Email</label>
+                                <input id="txt_email" type="email" class="form-control" placeholder="Enter author email" required="">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="txt_mobno">Contact Number</label>
+                                <input id="txt_mobno" type="text" maxlength="10" class="form-control" placeholder="Enter author mobile number" pattern="[0-9]*" required="">        
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <label for="txt_address1">Address1</label>
+                                <input id="txt_address1" type="text" class="form-control" placeholder="Enter your address" required="">    
+                            </div>
+                            <div class="col-md-6">
+                                <label for="txt_address1">Address2</label>
+                                <input id="txt_address2" type="text" class="form-control" placeholder="Enter your address">    
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
